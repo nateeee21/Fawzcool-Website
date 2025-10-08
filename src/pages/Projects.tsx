@@ -9,17 +9,15 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Corporate Office - Victoria Island",
-      location: "Lagos, Nigeria",
-      date: "March 2024",
+      title: "Corporate Building - Owerri",
+      location: "Imo, Nigeria",
+      date: "August 2025",
       category: "Commercial",
       image: "/placeholder.svg",
-      description: "Complete HVAC installation for 15-story office building including central air conditioning and ventilation systems.",
-      client: "Lotus Bank Nigeria",
-      value: "₦45,000,000",
+      description: "Handled the complete HVAC rework project, which involved installation and fabrication works — including the supply and installation of refrigerant and condensate pipes.",
       status: "Completed",
-      duration: "3 months",
-      services: ["Installation", "Maintenance Contract", "24/7 Support"]
+      duration: "1 month",
+      services: ["Installation", "Fabrication", "Ventilation"]
     },
     {
       id: 2,
