@@ -9,7 +9,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Corporate Office Complex - Victoria Island",
+      title: "Corporate Office - Victoria Island",
       location: "Lagos, Nigeria",
       date: "March 2024",
       category: "Commercial",
