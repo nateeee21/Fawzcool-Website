@@ -137,7 +137,7 @@
 @layer components {
   /* Hero Button Variants */
   .btn-hero {
-    @apply bg-gradient-to-r from-primary to-secondary text-primary-foreground px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105;
+    @apply bg-gradient-to-r from-primary to-secondary text-primary-foreground px-4 py-2 sm:px-8 sm:px-4 sm:text-lg rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105;
   }
 
   .btn-outline-hero {
@@ -146,7 +146,7 @@
 
   /* Service Cards */
   .service-card {
-    @apply bg-white rounded-2xl p-8 shadow-soft hover:shadow-medium transition-all duration-300 hover:-translate-y-2 border border-border;
+    @apply bg-white rounded-2xl p-4 sm:p-8 hover:shadow-medium transition-all duration-300 hover:-translate-y-2 border border-border;
   }
 
   /* Section Backgrounds */
