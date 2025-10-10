@@ -6,36 +6,36 @@ const ClientCategories = () => {
     {
       icon: <Users className="h-12 w-12" />,
       title: "Individuals",
-      description: "Residential air conditioning solutions for homes and apartments. We provide personalized service with flexible scheduling and affordable maintenance plans.",
-      features: ["Home AC installation", "Personal maintenance plans", "Emergency home repairs", "Energy-efficient recommendations"],
+      description: "Residential AC solutions for homes and apartments with flexible scheduling.",
+      features: ["Home AC installation", "Maintenance plans", "Emergency repairs"],
       bgColor: "bg-gradient-to-br from-primary/10 to-brand-purple/10"
     },
     {
       icon: <Building2 className="h-12 w-12" />,
       title: "Small Businesses",
-      description: "Keep your workplace comfortable and productive with our commercial AC solutions designed for small to medium enterprises.",
-      features: ["Office AC systems", "Retail space cooling", "Restaurant ventilation", "Cost-effective maintenance"],
+      description: "Commercial AC solutions for small to medium enterprises.",
+      features: ["Office AC systems", "Retail cooling", "Cost-effective maintenance"],
       bgColor: "bg-gradient-to-br from-brand-orange/10 to-secondary/10"
     },
     {
       icon: <GraduationCap className="h-12 w-12" />,
       title: "Schools & Universities",
-      description: "Educational institutions require reliable climate control. We provide comprehensive HVAC solutions for optimal learning environments.",
-      features: ["Classroom cooling systems", "Library climate control", "Dormitory AC solutions", "Energy-efficient designs"],
+      description: "HVAC solutions for optimal learning environments.",
+      features: ["Classroom cooling", "Library climate control", "Energy-efficient"],
       bgColor: "bg-gradient-to-br from-success/10 to-primary/10"
     },
     {
       icon: <Building className="h-12 w-12" />,
       title: "Banks & Financial Institutions",
-      description: "Critical environments need reliable climate control. We ensure your financial operations run smoothly with professional HVAC systems.",
-      features: ["Server room cooling", "Branch office AC", "ATM climate control", "24/7 maintenance support"],
+      description: "Reliable climate control for financial operations.",
+      features: ["Server room cooling", "Branch office AC", "24/7 support"],
       bgColor: "bg-gradient-to-br from-brand-purple/10 to-brand-orange/10"
     },
     {
       icon: <Factory className="h-12 w-12" />,
       title: "Industrial & Large Companies",
-      description: "Large-scale HVAC solutions for industrial facilities, corporate offices, and manufacturing plants with comprehensive maintenance programs.",
-      features: ["Industrial ventilation", "Large-scale AC systems", "Preventive maintenance", "Custom HVAC design"],
+      description: "Large-scale HVAC for industrial facilities and corporate offices.",
+      features: ["Industrial ventilation", "Large AC systems", "Custom design"],
       bgColor: "bg-gradient-to-br from-primary/10 to-success/10"
     }
   ];
@@ -48,8 +48,7 @@ const ClientCategories = () => {
             <span className="text-brand-purple">Our</span> <span className="text-brand-orange">Valued</span> Clients
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From individual homeowners to large corporations, Fawzcool Ltd provides tailored HVAC solutions 
-            for every type of client across Nigeria's diverse business landscape.
+            Tailored HVAC solutions for every client type across Nigeria.
           </p>
         </div>
 
@@ -89,8 +88,7 @@ const ClientCategories = () => {
             <span className="text-brand-purple">Ready to Join</span> <span className="text-brand-orange">Our Clients?</span>
           </h3>
           <p className="text-xl mb-8 text-muted-foreground max-w-2xl mx-auto">
-            Whether you're a homeowner, business owner, or facility manager, 
-            we have the expertise and solutions to meet your HVAC needs.
+            Expert HVAC solutions for your specific needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="bg-brand-purple hover:bg-brand-purple/90 text-white px-8">

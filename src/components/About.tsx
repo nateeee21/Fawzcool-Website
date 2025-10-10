@@ -1,5 +1,5 @@
 import { Users, Award, MapPin, Clock } from 'lucide-react';
-import teamPhoto from '../assets/team-photo.jpg';
+import teamPhoto from '@/assets/team-photo.jpg';
 
 const About = () => {
   const stats = [
@@ -19,14 +19,11 @@ const About = () => {
               About <span className="text-brand-purple">Fawz</span><span className="text-brand-orange">cool</span> Ltd
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              For over 15 years, Fawzcool Ltd has been Nigeria's trusted partner for 
-              professional HVAC services. We specialize in providing reliable, energy-efficient 
-              cooling and ventilation solutions for individuals, businesses, schools, banks, and industrial facilities.
+              For 15+ years, Fawzcool Ltd has delivered professional HVAC services across Nigeria. 
+              Energy-efficient cooling and ventilation for homes, businesses, and industrial facilities.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Our team of certified technicians combines international best practices with 
-              local expertise to deliver exceptional service. From Lagos to Abuja, Kano to 
-              Port Harcourt, we're committed to keeping Nigeria cool, comfortable, and productive.
+              Certified technicians combining international best practices with local expertise.
             </p>
 
             {/* Stats grid */}
@@ -66,7 +63,7 @@ const About = () => {
                 <div className="w-2 h-2 rounded-full bg-brand-purple mt-3"></div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Quality First</h4>
-                  <p className="text-muted-foreground">We use only premium equipment and maintain the highest service standards across all client segments.</p>
+                  <p className="text-muted-foreground">Premium equipment and highest service standards.</p>
                 </div>
               </div>
 
@@ -74,7 +71,7 @@ const About = () => {
                 <div className="w-2 h-2 rounded-full bg-brand-orange mt-3"></div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Client Satisfaction</h4>
-                  <p className="text-muted-foreground">Your comfort is our priority. We deliver personalized solutions for every client type.</p>
+                  <p className="text-muted-foreground">Your comfort is our priority with personalized solutions.</p>
                 </div>
               </div>
 
@@ -82,7 +79,7 @@ const About = () => {
                 <div className="w-2 h-2 rounded-full bg-success mt-3"></div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Reliable Service</h4>
-                  <p className="text-muted-foreground">24/7 availability and prompt response times across all our service areas and client categories.</p>
+                  <p className="text-muted-foreground">24/7 availability with prompt response times.</p>
                 </div>
               </div>
             </div>

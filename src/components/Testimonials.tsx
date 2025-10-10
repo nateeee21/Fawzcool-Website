@@ -7,7 +7,7 @@ const Testimonials = () => {
       location: "Lagos",
       role: "Homeowner",
       rating: 5,
-      text: "Excellent service! The team installed our new AC system professionally and efficiently. The cooling performance is outstanding, and their customer service is top-notch.",
+      text: "Excellent service! Professional installation and outstanding cooling performance.",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
     },
     {
@@ -15,7 +15,7 @@ const Testimonials = () => {
       location: "Abuja",
       role: "Business Owner",
       rating: 5,
-      text: "Fawzcool Ltd handles all our office HVAC needs. Their maintenance service is reliable, and they respond quickly to any issues. Highly recommended for commercial properties.",
+      text: "Reliable maintenance service and quick response to any issues.",
       image: "https://images.unsplash.com/photo-1494790108755-2616b332b1a8?w=150&h=150&fit=crop&crop=face"
     },
     {
@@ -23,7 +23,7 @@ const Testimonials = () => {
       location: "Port Harcourt",
       role: "Hotel Manager",
       rating: 5,
-      text: "We've been using their services for our hotel for 3 years. Professional, punctual, and their 24/7 emergency service has saved us many times during peak season.",
+      text: "Professional service for 3 years. Their 24/7 support is invaluable.",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
     },
     {
@@ -31,7 +31,7 @@ const Testimonials = () => {
       location: "Kano",
       role: "Homeowner",
       rating: 5,
-      text: "Outstanding repair service! My AC broke down during the hottest day of the year, and they had a technician at my house within 2 hours. Fixed it perfectly!",
+      text: "Outstanding emergency repair! Technician arrived in 2 hours and fixed it perfectly.",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
     },
     {
@@ -39,7 +39,7 @@ const Testimonials = () => {
       location: "Lagos",
       role: "Restaurant Owner",
       rating: 5,
-      text: "Their ventilation system installation transformed our restaurant kitchen. The air quality is much better, and our staff are more comfortable. Great job!",
+      text: "Excellent ventilation installation. Better air quality and comfort.",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
     },
     {
@@ -47,7 +47,7 @@ const Testimonials = () => {
       location: "Ibadan",
       role: "School Administrator",
       rating: 5,
-      text: "They installed AC systems in our school during the holidays. The work was completed on time, within budget, and the classrooms are now perfectly comfortable.",
+      text: "Completed on time and within budget. Classrooms are perfectly comfortable now.",
       image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face"
     }
   ];
@@ -60,8 +60,7 @@ const Testimonials = () => {
             What Our <span className="text-brand-purple">Clients</span> Say
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From individuals to large corporations, hear what our satisfied clients across Nigeria 
-            have to say about Fawzcool Ltd's professional HVAC services.
+            Hear what our satisfied clients say about our HVAC services.
           </p>
         </div>
 
@@ -101,7 +100,29 @@ const Testimonials = () => {
           ))}
         </div>
 
-        
+        {/* Trust indicators */}
+        <div className="mt-16 text-center">
+          <div className="bg-white rounded-2xl p-8 shadow-soft max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-4 gap-8 items-center">
+              <div className="text-center">
+                <div className="text-3xl font-bold text-primary mb-2">4.9/5</div>
+                <div className="text-sm text-muted-foreground">Average Rating</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl font-bold text-brand-orange mb-2">5000+</div>
+                <div className="text-sm text-muted-foreground">Happy Clients</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl font-bold text-brand-purple mb-2">99%</div>
+                <div className="text-sm text-muted-foreground">Client Satisfaction</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl font-bold text-primary mb-2">24/7</div>
+                <div className="text-sm text-muted-foreground">Support Available</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

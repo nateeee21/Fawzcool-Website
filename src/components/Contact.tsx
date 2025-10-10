@@ -45,20 +45,20 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Call Us",
-      details: ["+234 800 FAWZ COOL", "+234 708 477 8136"],
+      details: ["+234 800 FAWZ COOL", "+234 801 234 5678"],
       description: "24/7 Emergency Line Available"
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email Us",
-      details: ["info@fawzcool.com", "sales@fawzcool.com"],
+      details: ["info@fawzcool.com", "service@fawzcool.com"],
       description: "We respond within 2 hours"
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Visit Us",
-      details: ["15A Sunflower Street Alausa - Agindingbi Ikeja Lagos"],
-    
+      details: ["123 Ikorodu Road, Lagos", "45 Ahmadu Bello Way, Abuja"],
+      description: "Main offices in Lagos & Abuja"
     },
     {
       icon: <Clock className="h-6 w-6" />,
@@ -80,8 +80,7 @@ const Contact = () => {
             <span className="text-brand-purple">Get In</span> <span className="text-brand-orange">Touch</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to experience professional HVAC services from Fawzcool Ltd? Contact us today for a free consultation 
-            and customized quote. Our experts are ready to serve individuals, businesses, schools, banks, and industrial clients.
+            Contact us today for a free consultation and quote.
           </p>
         </div>
 
@@ -109,7 +108,7 @@ const Contact = () => {
             <div className="bg-gradient-to-r from-brand-purple to-brand-orange rounded-2xl p-8 text-white">
               <h4 className="text-xl font-bold mb-4">Service Areas</h4>
               <p className="mb-4 text-white/90">
-                Fawzcool Ltd provides professional HVAC services across Nigeria's major cities:
+                Professional HVAC services across Nigeria's major cities:
               </p>
               <div className="grid grid-cols-2 gap-2">
                 {serviceAreas.map((area, index) => (
