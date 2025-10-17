@@ -57,19 +57,19 @@ const Contact = () => {
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Visit Us",
-      details: ["123 Ikorodu Road, Lagos", "45 Ahmadu Bello Way, Abuja"],
-      description: "Main offices in Lagos & Abuja"
+      details: ["15A Sunflower Street Alausa - Agindingbi Ikeja Lagos 101233"],
+      description: "Main office in Lagos"
     },
     {
       icon: <Clock className="h-6 w-6" />,
       title: "Business Hours",
-      details: ["Mon-Fri: 8AM - 6PM", "Sat: 9AM - 4PM"],
+      details: ["Mon-Fri: 8AM - 6PM",],
       description: "Emergency service 24/7"
     }
   ];
 
   const serviceAreas = [
-    "Lagos", "Abuja", "Port Harcourt", "Kano", "Ibadan", "Kaduna", "Jos", "Benin City"
+    "Lagos", "Abuja", "Port Harcourt", "Uyo", "Ibadan", "Owerri",
   ];
 
   return (

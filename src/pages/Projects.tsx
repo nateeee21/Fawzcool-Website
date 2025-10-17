@@ -1,4 +1,4 @@
-import { ArrowLeft, Calendar, MapPin, Star, DollarSign, Clock, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Calendar, MapPin, Star, Clock, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -28,39 +28,11 @@ const Projects = () => {
       image: "/placeholder.svg",
       description: "Installation of energy-efficient cooling systems across multiple buildings in the university campus.",
       client: "University of Lagos",
-      value: "₦32,000,000",
       status: "Completed",
       duration: "4 months",
       services: ["Installation", "Energy Optimization",]
     },
-    {
-      id: 3,
-      title: "Manufacturing Plant Climate Control",
-      location: "Port-Harcourt, Nigeria",
-      date: "November 2023",
-      category: "Industrial",
-      image: "/placeholder.svg",
-      description: "Industrial-grade ventilation and control systems for business and finance facility.",
-      client: "PharmaTech Industries",
-      value: "₦67,000,000",
-      status: "Completed",
-      duration: "6 months",
-      services: ["Installation", "Compliance Certification", "Maintenance"]
-    },
-    {
-      id: 4,
-      title: "Residential Estate Project",
-      location: "Port Harcourt, Nigeria",
-      date: "September 2023",
-      category: "Residential",
-      image: "/placeholder.svg",
-      description: "HVAC systems for 50-unit luxury residential estate with individual climate control.",
-      client: "Eden Heights Estate",
-      value: "₦28,000,000",
-      status: "Completed",
-      duration: "2 months",
-      services: ["Installation", "Smart Controls"]
-    }
+    
   ];
 
   return (
@@ -134,8 +106,6 @@ const Projects = () => {
                       <span>{project.duration}</span>
                     </div>
                     <div className="flex items-center">
-                      <DollarSign className="h-4 w-4 mr-2 text-primary" />
-                      <span className="font-semibold">{project.value}</span>
                     </div>
                     <div className="flex items-center">
                       <Star className="h-4 w-4 mr-2 text-brand-orange" />

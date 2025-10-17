@@ -1,4 +1,4 @@
-import { Wrench, Settings, Wind, Thermometer, CheckCircle, ArrowRight } from 'lucide-react';
+import { Wrench, Settings, Wind, Thermometer, CheckCircle, ArrowRight, SunIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import acServiceImage from '@/assets/ac-service.jpg';
 
@@ -13,17 +13,17 @@ const Services = () => {
     },
     {
       icon: <Settings className="h-8 w-8" />,
-      title: "AC Maintenance",
-      description: "Comprehensive maintenance services to keep your AC running efficiently and extend lifespan.",
+      title: "AC Maintenance and Repair",
+      description: "Comprehensive maintenance and 24/7 emergency repair services for all AC brands in order to keep your AC running efficiently and extend lifespan.",
       features: ["Scheduled maintenance", "Filter replacement", "Performance optimization"],
       details: "Regular maintenance prevents costly breakdowns year-round."
     },
     {
-      icon: <Wrench className="h-8 w-8" />,
-      title: "AC Repair",
-      description: "24/7 emergency repair services for all AC brands. Quick diagnosis and reliable solutions.",
-      features: ["24/7 emergency", "All brands", "Same-day repairs"],
-      details: "Experienced technicians fix any AC issue with genuine parts."
+      icon: <SunIcon className="h-8 w-8" />,
+      title: "Solar Powered Solutions",
+      description: "Combines renewable energy and advanced climate control systems to offer sustainable, cost-effective, and reliable temperature management.",
+      features: ["24/7 energy", "Eco-Friendly", "Renewable Energy"],
+      details: "Eco-friendly solar solution powered by renewable energy and backed by expert technicians."
     },
     {
       icon: <Wind className="h-8 w-8" />,

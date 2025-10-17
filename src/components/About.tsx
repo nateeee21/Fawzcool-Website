@@ -1,11 +1,12 @@
-import { Users, Award, MapPin, Clock } from 'lucide-react';
+import { Users, Award, MapPin, Clock, Lightbulb } from 'lucide-react';
 import teamPhoto from '@/assets/team-photo.jpg';
+import { text } from 'stream/consumers';
 
 const About = () => {
   const stats = [
-    { icon: <Users className="h-8 w-8" />, number: "5000+", label: "Happy Clients", color: "text-brand-purple" },
-    { icon: <Award className="h-8 w-8" />, number: "15+", label: "Years Experience", color: "text-brand-orange" },
-    { icon: <MapPin className="h-8 w-8" />, number: "25+", label: "Cities Served", color: "text-primary" },
+    { icon: <Users className="h-8 w-8" />, number: "100+", label: "Happy Clients", color: "text-brand-purple" },
+    { icon: <Award className="h-8 w-8" />, number: "5+", label: "Years of experience", color: "text-brand-orange" },
+    { icon: <MapPin className="h-8 w-8" />, number: "20+", label: "Cities Served", color: "text-primary" },
     { icon: <Clock className="h-8 w-8" />, number: "24/7", label: "Emergency Service", color: "text-success" },
   ];
 
@@ -19,8 +20,8 @@ const About = () => {
               About <span className="text-brand-purple">Fawz</span><span className="text-brand-orange">cool</span> Ltd
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              For 15+ years, Fawzcool Ltd has delivered professional HVAC services across Nigeria. 
-              Energy-efficient cooling and ventilation for homes, businesses, and industrial facilities.
+              Fawzcool Ltd has always delivered professional HVAC services across Nigeria. 
+              Energy-efficient cooling, ventilation and solar powered solutions for homes, businesses, and industrial facilities.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               Certified technicians combining international best practices with local expertise.
