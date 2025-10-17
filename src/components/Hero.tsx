@@ -16,7 +16,7 @@ const Hero = () => {
               <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
               <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
               <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-              <span className="text-sm">Trusted by 5000+ clients</span>
+              <span className="text-sm">Trusted by 100+ clients</span>
             </div>
             
             <div className="flex items-center space-x-3 md:space-x-4 mb-4 md:mb-6">
@@ -66,7 +66,7 @@ const Hero = () => {
               </div>
               <div className="text-center">
                 <Star className="h-6 w-6 md:h-8 md:w-8 mx-auto mb-1 md:mb-2 text-yellow-400" />
-                <div className="text-xs md:text-sm">5-Year Warranty</div>
+                <div className="text-xs md:text-sm">Reliable</div>
               </div>
             </div>
           </div>
@@ -84,7 +84,7 @@ const Hero = () => {
             
             {/* Floating card */}
             <div className="absolute -bottom-6 -left-6 bg-white text-gray-900 p-6 rounded-xl shadow-large">
-              <div className="text-2xl font-bold text-primary">15+</div>
+              <div className="text-2xl font-bold text-primary">5+</div>
               <div className="text-sm">Years Experience</div>
             </div>
           </div>
